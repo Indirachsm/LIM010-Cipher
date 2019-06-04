@@ -17,25 +17,7 @@
 
 ## Preámbulo
 
-Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
-es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
-reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
-
-Veamos los siguientes ejemplos:
-- Si ciframos la letra A usando un desplazamiento (_offset_) de 3 posiciones, entonces la **A**
-se convierte en **D**.
-- Ahora, si ciframos la palabra **CASA** con el mismo desplazamiento de 3, ésta se convierte en
-**FDVD**.
-- Y para el alfabeto completo, con el mismo desplazamiento de 3 posiciones, sería:
-  - Sin cifrado: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-  - Ya cifrado : D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-  ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-> En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad
-  y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el
-  cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
-  cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+Todas conocemos lo importante que es desahogarnos y compartir nuestros secretos y experiencias personales con esa(s) amiga(s) cercana(s), sin embargo, existe cierto temor de hacerlo mediante redes sociales ya que nunca sabemos quién puede terminar leyendo nuestros más intimos secretos por un descuido de nosotras mismas o de esa(s) persona(s) con quién hemos decidido compartir, para esto se ha creado esta aplicación que te permite cifrar y descifrar mensajes mediante el Cifrado Cesar, logrando así que tú y tu(s) amiga(s) puedan intercambiar mensajes cifrandolos y descifrandolos ;-) 
 
 ## Objetivos de aprendizaje
 
