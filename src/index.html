@@ -6,26 +6,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="div1">
+    <div id="div1" class="box">
       <h1>Cifra o descifra tu conversación secreta con tus amigas</h1>
       <p>Para iniciar, ingresa tu contraseña</p>
-      <input type="password" name="" placeholder="&#128272; Contraseña" id="validar">
-      <input type="button" name="btn1" value="Ingresar" id="btn1">
+      <input class="inputstyle" type="password" id="contrasena" name="valid" placeholder="&#128272; Contraseña">
+      <input type="button" class="btns" name="btn1" value="Ingresar" id="btn1">
       <main></main>
       <footer></footer>
     </div>
 
-    <div id="div2" style="display:none">
+    <div id="div2" style="display:none" class="box">
       <h1>Ingresa tu código</h1>
 
     </div>
 
-    <div id"div3" style="display:none">
+    <div id="div3" style="display:none" class="box">
       <h1>Intentalo nuevamente</h1>
+      <input class="inputstyle" type="password" id="contrasena" name="valid" placeholder="&#128272; Contraseña">
+      <input type="button" class="btns" name="btn1" value="Ingresar" id="btn1">
     </div>
 
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
+
+    </script>
   </body>
 </html>

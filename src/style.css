@@ -1,1 +1,38 @@
-/* Acá van tus reglas de estilo */
+body {
+  background-image: url(background.jpg);
+  font-family: 'Courier New', cursive;
+  color: #f1bc7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vH;
+}
+
+.box{
+text-align:center;
+height:40vh;
+width:300px;
+padding:45px;
+top:50%
+transform:translate(-50%, -50%);
+background: #000000;
+font-size: 13px;
+border: #020000
+}
+
+.btns{
+border-radius: 8px;
+background-color: #f1bc7e;
+color: black;
+border: 2px solid #f1bc7e;
+font-size: 15px;
+font-family: courier New
+}
+
+.inputstyle{width: 80%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+font-family: courier New
+}
