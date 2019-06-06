@@ -10,7 +10,7 @@ body {
 
 .box{
 text-align:center;
-height:40vh;
+height:45vh;
 width:300px;
 padding:45px;
 top:50%
@@ -29,10 +29,28 @@ font-size: 15px;
 font-family: courier New
 }
 
-.inputstyle{width: 80%;
-    padding: 15px 22px;
-    margin: 10px 5px;
-    box-sizing: border-box;
-    font-size: 15px;
+.inputstyle{
+width: 80%;
+padding: 15px 22px;
+margin: 10px 5px;
+box-sizing: border-box;
+font-size: 15px;
 font-family: courier New
+}
+
+.allInput{
+border: 2px solid #f1bc7e;
+font-family: 'Courier New', cursive;
+height:9vh;
+width:300px;
+text-align:center
+
+ }
+.offset{
+border: 2px solid #f1bc7e;
+font-family: 'Courier New', cursive;
+text-align: center
+}
+.outputs{
+align-items: center
 }
