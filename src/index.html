@@ -9,7 +9,7 @@
     <div id="div1" class="box">
       <h1>Cifra o descifra tu conversación secreta con tus amigas</h1>
       <p>Para iniciar, ingresa tu contraseña</p>
-      <input class="inputstyle" type="password" id="contrasena" name="valid" placeholder="&#128272; Contraseña">
+      <input class="inputstyle" type="password" id="contrasena" value="LABORATORIA" name="valid" placeholder="&#128272; Contraseña">
       <input type="button" class="btns" name="btn1" value="Ingresar" id="btn1">
           <p id=mensjPasswordIncorrecta></p>
       <main></main>
@@ -17,22 +17,22 @@
     </div>
 
 
-    <div id="div2" style="display:none" class="box">
+    <div class="box ocultar" id="div2">
       <h1>Ingresa tu texto o código</h1>
-    <pre>  <input class="allInput" type="text" name="" value="" placeholder="Ingresa tu texto a cifrar">
+    <pre>  <input class="allInput" id="inputTexto" type="text" name="" value="" placeholder="Ingresa tu texto a cifrar">
 
-      <input class="offset" type="number" min="1" name="" value="" placeholder="Offset">
+      <input class="offset" id="offset" type="number" min="1" name="" value="" placeholder="Offset">
 
-      <input class="allInput","outputs" type="text" name="" value="">
+      <input class="allInput","outputs" id="outputResultado" type="text" name="" value="">
     </wpre>
-      <button type="button" class="btns" name="button">Cifrar</button>
-      <button type="button" class="btns" name="button">Descifrar</button>
+      <button type="button" id="btnCifrar" class="btns" name="button">Cifrar</button>
+      <button type="button" id="btnDescifrar" class="btns" name="button">Descifrar</button>
       <button type="button" class="btns" name="button">Limpiar</button>
 
 
     </div>
 
-    <div id="div4" style="display:none" class="box">
+    <div class="box ocultar" id="div3">
       <h1>Lo sentimos, en este momento no podrás cifrar o descifrar</h1>
     </div>
 

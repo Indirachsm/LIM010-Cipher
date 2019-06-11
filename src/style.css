@@ -54,3 +54,7 @@ text-align: center
 .outputs{
 align-items: center
 }
+.ocultar {
+  display:none
+  
+}
