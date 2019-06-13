@@ -1,7 +1,7 @@
 body {
   background-image: url(background.jpg);
   font-family: 'Courier New', cursive;
-  color: #f1bc7e;
+  color: #563958;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,52 +9,65 @@ body {
 }
 
 .box{
-text-align:center;
-height:45vh;
-width:300px;
-padding:45px;
-top:50%
-transform:translate(-50%, -50%);
-background: #000000;
-font-size: 13px;
-border: #020000
+  border-radius: 10px;
+  text-align:center;
+  height:54vh;
+  width:350px;
+  padding:45px;
+  top:50%
+  transform:translate(-50%, -50%);
+  background: #f7e3e3;
+  font-size: 13px;
+  border: #020000
 }
 
 .btns{
-border-radius: 8px;
-background-color: #f1bc7e;
-color: black;
-border: 2px solid #f1bc7e;
-font-size: 15px;
-font-family: courier New
+  border-radius: 10px;
+  background-color: #563958;
+  color: white;
+  border: 2px solid #563958;
+  font-size: 17px;
+  font-family: courier New
 }
 
 .inputstyle{
-width: 80%;
-padding: 15px 22px;
-margin: 10px 5px;
-box-sizing: border-box;
-font-size: 15px;
-font-family: courier New
+  width: 100%;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 8px;
+  font-family: courier New
 }
 
 .allInput{
-border: 2px solid #f1bc7e;
-font-family: 'Courier New', cursive;
-height:9vh;
-width:300px;
-text-align:center
+  border-radius: 8px;
+border: 2px solid #563958;
+  font-family: 'Courier New', cursive;
+  height: 14vh;
+  width:300px;
+  text-align:center
+
+
 
  }
 .offset{
-border: 2px solid #f1bc7e;
-font-family: 'Courier New', cursive;
-text-align: center
+  height: 4vh;
+  border-radius: 8px;
+  border: 2px solid #563958;
+  font-family: 'Courier New', cursive;
+  text-align: center
 }
 .outputs{
-align-items: center
+  align-items: center
 }
 .ocultar {
   display:none
-  
+}
+.footer {
+  height:54vh;
+  width:350px;
+  padding:45px;
+  top:50%
+
 }

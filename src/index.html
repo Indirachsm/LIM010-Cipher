@@ -4,32 +4,31 @@
     <meta charset="utf-8">
     <title>Female Secrets</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="div1" class="box">
       <h1>Cifra o descifra tu conversación secreta con tus amigas</h1>
       <p>Para iniciar, ingresa tu contraseña</p>
       <input class="inputstyle" type="password" id="contrasena" value="LABORATORIA" name="valid" placeholder="&#128272; Contraseña">
-      <input type="button" class="btns" name="btn1" value="Ingresar" id="btn1">
-          <p id=mensjPasswordIncorrecta></p>
+      <input type="button" class="btns" name="btnIngresar" value="Ingresar" id="btnIngresar">
+          <p id="mensjPasswordIncorrecta"></p>
       <main></main>
-      <footer></footer>
     </div>
 
 
     <div class="box ocultar" id="div2">
+      <form action="index.html" method="post">
       <h1>Ingresa tu texto o código</h1>
-    <pre>  <input class="allInput" id="inputTexto" type="text" name="" value="" placeholder="Ingresa tu texto a cifrar">
-
-      <input class="offset" id="offset" type="number" min="1" name="" value="" placeholder="Offset">
-
-      <input class="allInput","outputs" id="outputResultado" type="text" name="" value="">
-    </wpre>
+      <pre>
+        <input class="allInput" id="inputTexto" type="text" name="" value="" placeholder="Ingresa tu texto a cifrar">
+        <input class="offset" id="offset" type="number" min="1" placeholder="Offset">
+        <input class="allInput outputs" id="outputResultado" type="text">
+      </pre>
       <button type="button" id="btnCifrar" class="btns" name="button">Cifrar</button>
       <button type="button" id="btnDescifrar" class="btns" name="button">Descifrar</button>
-      <button type="button" class="btns" name="button">Limpiar</button>
-
-
+      <button type="reset" class="btns" name="button">Limpiar</button>
+      </form>
     </div>
 
     <div class="box ocultar" id="div3">
@@ -40,8 +39,5 @@
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-
-
-    </script>
   </body>
 </html>
