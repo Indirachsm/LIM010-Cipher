@@ -24,9 +24,6 @@ window.cipher = {
     }
     mensajeDescifrado += String.fromCharCode(caractercifrado);
     }
-    else if (asciiNumber >= 97 && asciiNumber <= 122) {
-        mensajeDescifrado += String.fromCharCode((asciiNumber - 97 - parseInt(offsetC)) % 26 + 97);
-      }
       else {
         mensajeDescifrado+=string[i];
       }
